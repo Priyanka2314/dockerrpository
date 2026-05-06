@@ -1,0 +1,10 @@
+version: v5.1.2
+services:
+  mynginx:
+    image: nginx
+    ports:
+      - 82:80
+  myhttpd:
+    image: httpd
+    ports:
+      - 83:80
